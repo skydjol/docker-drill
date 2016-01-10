@@ -1,4 +1,4 @@
-# Apache Drill v1.4.0 - embedded mode
+# Apache Drill v1.4.0 - distributed mode
 #
 # VERSION 0.1 - not for production, use at own risk
 # General instructions: https://drill.apache.org/docs/install-drill-introduction/
