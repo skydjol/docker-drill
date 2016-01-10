@@ -23,11 +23,8 @@ RUN apt-get update && apt-get install -y tar && \
 # Download and Install Apache Drill
 # https://drill.apache.org/docs/installing-drill-on-linux-and-mac-os-x/
 #
-#RUN curl -o apache-drill-1.4.0.tar.gz http://www.eu.apache.org/dist/drill/drill-1.4.0/apache-drill-1.4.0.tar.gz && \
-#    tar zxpf apache-drill-1.4.0.tar.gz -C /opt/drill
-
-COPY apache-drill-1.4.0.tar.gz .
-RUN tar zxpf apache-drill-1.4.0.tar.gz -C /opt/drill
+RUN curl -o apache-drill-1.4.0.tar.gz http://www.eu.apache.org/dist/drill/drill-1.4.0/apache-drill-1.4.0.tar.gz && \
+    tar zxpf apache-drill-1.4.0.tar.gz -C /opt/drill
 
 #
 # Start Apache Drill in embedded mode
