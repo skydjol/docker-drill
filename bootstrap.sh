@@ -2,7 +2,7 @@
 echo ""
 echo ""
 echo "###############################################################################################"
-echo "# Welcome to your Apache Drill v1.4.0 (Embedded mode) Docker image                            #"
+echo "# Welcome to your Apache Drill v1.6.0 (Embedded mode) Docker image                            #"
 echo "#                                                                                             #"
 echo "# Quick start query:                                                                          #"
 echo "# SELECT * FROM cp.\`employee.json\` LIMIT 5;                                                   #"
@@ -15,7 +15,7 @@ echo "# !quit                                                                   
 echo "###############################################################################################"
 echo ""
 echo ""
-echo "Starting Apache Drill v1.4.0 in embeded mode..."
+echo "Starting Apache Drill v1.6.0 in embeded mode..."
 echo ""
 echo ""
 
@@ -23,4 +23,4 @@ echo ""
 # Start Apache Drill in embedded mode
 # https://drill.apache.org/docs/starting-drill-on-linux-and-mac-os-x/
 #
-/opt/drill/apache-drill-1.4.0/bin/drillbit.sh start
+/opt/drill/apache-drill-1.6.0/bin/drillbit.sh start
